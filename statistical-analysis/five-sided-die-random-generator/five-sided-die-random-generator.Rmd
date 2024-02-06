@@ -1,0 +1,71 @@
+---
+title: "Random number generator from fair five sided die"
+output:
+  pdf_document: default
+  html_document: default
+---
+Program generates random number from fair five sided die. 
+
+```{r}
+library(tidyverse)
+
+set.seed(10072021)
+
+#Generate random integer from 1 to 3 with probabilities, 100 times
+die <- c(sample(1:5, 100, replace = TRUE, prob = c(1/15, 2/15, 3/15, 4/15, 5/15))) 
+
+#Calculate mean of random numbers
+mean_dice_value <- mean.default(die, trim = 0, na.rm = FALSE) 
+
+#Print mean value
+print('Mean = ') 
+print(mean_dice_value) 
+
+#Determine standard deviation of random numbers
+sd_dice_value <- sd(die) 
+print('Standard Deviation = ')
+print(sd_dice_value)
+
+var_dice_value = var(die)
+print('Variance = ')
+print(var_dice_value)
+```
+
+
+```{r}
+
+sample = c(1,2,3,4,5)
+
+n = length(sample)
+
+prob = c(1/15, 2/15, 3/15, 4/15, 5/15)
+
+mean_distribution = sum(sample*prob)
+
+print('mean_distribution = ')
+print(mean_distribution)
+
+var_distribution = sum(((sample- mean_distribution)^2)*prob)
+
+print('var_distribution = ')
+print(var_distribution)
+
+
+
+```
+
+
+
+
+
+
+```{r}
+mean_error = mean_distribution - mean_dice_value
+print('Error or difference in mean of distribution and mean of sample drawn   = ')
+print(mean_error)
+
+var_error = var_distribution - var_dice_value
+print('Error or difference in variance of distribution and variance of sample drawn   = ')
+print(var_error)
+
+```
