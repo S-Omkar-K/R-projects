@@ -28,7 +28,7 @@ It also highlights the importance of understanding the difference between Intent
 
 ------
 
-## FIONA Impact Analysis Project
+## FIONA Impact Analysis Study
 
 This project involves the impact analysis of the FIONA program on farmer profits in India. The analysis includes the assessment of assumptions, different statistical approaches, and recommendations based on the findings.
 
