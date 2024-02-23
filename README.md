@@ -8,4 +8,4 @@ Statistics, Program Evaluation and Research methodology using R
 This repository contains the analysis and findings from a project conducted for CALBEARS, focusing on understanding the impact of groundwater costs and electricity prices on groundwater consumption. The analysis involves using instrumental variable regression methodologies to estimate causal effects.
 ## Objective
 CALBEARS requested an examination of the relationship between groundwater costs and consumption. The analysis is performed using a two-stage least squares (2SLS) regression methodology.
-## Folders: 
+## Folder: https://github.com/S-Omkar-K/R-projects/tree/main/impact-gwater-costs-on-consumption
