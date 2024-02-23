@@ -8,7 +8,7 @@ Statistics, Program Evaluation and Research methodology using R
 This repository contains the analysis and findings from a project conducted for CALBEARS, focusing on understanding the impact of groundwater costs and electricity prices on groundwater consumption. The analysis involves using instrumental variable regression methodologies to estimate causal effects.
 ### Approach
 The analysis is performed using a two-stage least squares (2SLS) regression methodology.
-### Project repo: [impact-gwater-costs-on-consumption](../impact-gwater-costs-on-consumption/)
+### Project repo: [impact-gwater-costs-on-consumption](/impact-gwater-costs-on-consumption/)
 
 ------
 
@@ -24,4 +24,4 @@ Balance tests are conducted to ensure the randomization of treatment and control
 Regression analysis is performed to estimate treatment effects, considering various covariates.
 It also highlights the importance of understanding the difference between Intent to Treat (ITT) estimates and actual treatment effects.
 
-### Project repo: [impact-of-electricity-disconnects](../impact-of-electricity-disconnects/)
+### Project repo: [impact-of-electricity-disconnects](/impact-of-electricity-disconnects/)
