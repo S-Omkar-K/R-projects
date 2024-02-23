@@ -1,4 +1,4 @@
-## Electricity Disconnection Impact Study
+# Electricity Disconnection Impact Study
 
 This GitHub repository contains the code and documentation for a study on the impact of electricity disconnection programs on payment behavior. The study employs statistical methods and the potential outcomes framework to estimate treatment effects.
 
