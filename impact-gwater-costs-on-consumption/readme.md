@@ -1,4 +1,4 @@
-# CALBEARS Data Analysis Project
+# CALBEARS - Determining Effect of Average Groundwater costs on Consumption
 
 ## Overview
 
