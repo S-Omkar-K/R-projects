@@ -12,7 +12,7 @@ The primary objective of this project is to assess the effectiveness of air qual
 - Implementing DiD analysis to identify the Average Treatment Effect (ATE) for municipalities introducing regulations in specific years.
 - Conducting panel fixed effects regression to examine the causal impact of air quality regulations on particulate matter over time.
 
-## Concepts Explored
+## Concepts Used
 
 ### 1. Difference-in-Differences (DiD) Analysis
 - Understanding the DiD methodology for estimating causal effects in observational studies.
