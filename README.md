@@ -49,11 +49,6 @@ The primary objective of this project is to assess the effectiveness of air qual
 - Estimating the difference in means between municipalities with and without air quality regulations.
 - Implementing DiD analysis to identify the Average Treatment Effect (ATE) for municipalities introducing regulations in specific years.
 - Conducting panel fixed effects regression to examine the causal impact of air quality regulations on particulate matter over time.
-### Concepts Explored
-#### 1. Difference-in-Differences (DiD) Analysis  
-#### 2. Regression Analysis  
-#### 3. Event Study  
-#### 4. Panel Data Analysis
 ### Findings, Interpretations and Recommendations
 - The analysis reveals a significant reduction in particulate matter after the introduction of air quality regulations, as observed through various methodologies.
 - The effectiveness of regulations varies across different years, with a notable impact persisting over time in certain cases.
